@@ -5,8 +5,55 @@
   <meta charset="utf-8">
   <meta name="Constantinos' CV" content="Skills page">
   <title>Constantinos' CV</title>
+
+  <style>
+  .topnav{
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  .topnav a.active {
+  background-color: #DC143C;
+  color: white;
+  }
+
+  body{
+    background-image: url("background.jpg");
+    width:70%;
+    margin: 0 auto;
+  }
+
+  div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+  }
+
+  ul.activites{
+    text-align: justify;
+    width: 60%;
+  }
+
+  </style>
+
 </head>
 
+<nav class="topnav">
+  <a href="myCV.html">Personal Bio</a>
+  <a href="educationCV.html">Education</a>
+  <a href="work.html">Work experience</a>
+  <a class="active" href="skills.html">Skills</a>
+</nav>
 <header>
   <h1>Constantinos Socratous</h1>
 </header>
@@ -15,16 +62,11 @@
 
 <main>
 
-<nav>
-  -<a href="myCV.html">Personal Bio</a>
-  -<a href="educationCV.html">Education</a>
-  -<a href="work.html">Work experience</a>
-</nav>
 
 <body>
   <section>
     <h2>Skills/Other activities</h2>
-    <article>
+    <div>
     <h3>Computer Skills</h3>
     <ul>
       <li>Java</li>
@@ -34,28 +76,28 @@
       <li>Visual Basic</li>
       <li>Microsoft Word, Excel, PowerPoint, Access</li>
     </ul>
-    </article>
+  </div>
 
-    <article>
+    <div>
     <h3>Languages</h3>
     <ul>
       <li>Greek(native)</li>
       <li>English(fLuent)</li>
       <li>Spanish(conversationally)</li>
     </ul>
-    </article>
+  </div>
 
-    <article>
+    <div>
     <h3>Other activities</h3>
-    <ul>
+    <ul class = "activites">
       <li>Developed a <b><a href="https://meeteurope.blog">website/travel blog</a></b>, updating and enhancing its content
-        <br>on a regular basis. The blog aims to provide travellers
-        <br>with the most recommended places to visit, based on personal experience, in European cities.</li>
+        on a regular basis. The blog aims to provide travellers
+        with the most recommended places to visit, based on personal experience, in European cities.</li>
       <li>Played <b>tennis for over 10 years</b>, since the age of 6. Attended daily practice sessions and won
-        <br>many national tournaments in single and doubles</li>
+        many national tournaments in single and doubles</li>
       <li>Attended <b>chess courses</b> for 2 years and won many medals in national competitions</li>
     </ul>
-    </article>
+  </div>
   </section>
 
 </body>
