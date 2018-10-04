@@ -5,7 +5,54 @@
   <meta charset="utf-8">
   <meta name="Constantinos' CV" content="Work experience page">
   <title>Constantinos' CV</title>
+
+  <style>
+
+  .topnav{
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  .topnav a.active {
+  background-color: #DC143C;
+  color: white;
+  }
+
+  body{
+    background-image: url("background.jpg");
+    width:70%;
+    margin: 0 auto;
+  }
+
+  div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+  }
+
+  p{
+    text-align: justify;
+    width: 60%;
+  }
+  </style>
 </head>
+
+<nav class="topnav">
+  <a href="myCV.html">Personal Bio</a>
+  <a href="educationCV.html">Education</a>
+  <a class="active" href="work.html">Work experience</a>
+  <a href="skills.html">Skills</a>
+</nav>
 
 <header>
   <h1>Constantinos Socratous</h1>
@@ -15,16 +62,10 @@
 
 <main>
 
-<nav>
-  -<a href="myCV.html">Personal Bio</a>
-  -<a href="educationCV.html">Education</a>
-  -<a href="skills.html">Skills</a>
-</nav>
-
 <body>
   <section>
     <h2>Work experience</h2>
-    <article>
+    <div>
       <h3><a href="http://www.eurolife.com.cy/" target = "_blank">Eurolife Insuarance Ltd</a></h3>
         <p>Summer intern at Eurolife Insuarance Ltd which is the largest Insuarance company in Cyprus (Jun. 18 - Sep. 18)
         <ul>
@@ -32,7 +73,7 @@
           <li>Untertook extensive responsibilities in reviewing and approving policies</li>
           <li>Helped in communicating policies to clients</li>
       </ul>
-    </article>
+    </div>
   </section>
 
 </body>
