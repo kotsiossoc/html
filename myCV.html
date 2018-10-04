@@ -24,13 +24,27 @@
   color: black;
   }
   .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #DC143C;
   color: white;
   }
 
-  section.body{
-    text-align:justify;
+  body{
+    background-image: url("background.jpg");
+    width:70%;
+    margin: 0 auto;
   }
+
+  p.bioInfo{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 55%;
+    margin:0 0;
+    text-align: justify;
+  }
+
+  div{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
   </style>
 </head>
 
@@ -44,34 +58,31 @@
 <header>
   <h1>Constantinos Socratous</h1>
 </header>
-
+<hr>
 <main>
 
-<body >
-  <section>
+<body>
+
     <h2>Personal Bio</h2>
-    <p>I am an efficient college student(BSc Computer Science) currently attending
+
+  <section>
+    <p class="bioInfo">
+      I am a college student(BSc Computer Science) currently attending
       <a href="https://www.kcl.ac.uk/index.aspx" target="_blank">Kings College London</a>
-      <br>in 2nd year and completed my first year with a first-class grade
-      <br>Whether working on academic or professional projects, I apply proven leadership, teamwork,
-      <br>resistance and creative thinking skills.
+      in 2nd year and completed my first year with a first-class grade.
+      Whether working on academic or professional projects, I apply proven leadership, teamwork,
+      resistance and creative thinking skills.
     </p>
   </section>
 
-  <section>
-    <dl>
-      <dd><b>Adderss</b></dd>
-        <dt>10 Tinworth Street, Flat 106c SE11 5AL, London</dt>
-      <dd><b>Phone number</b></dd>
-        <dt>07548872270</dt>
-      <dd><b>Email</b></dd>
-        <dt>constantinos.socratous@kcl.ac.uk</dt>
-    </dl>
-  </section>
+  <div>
+    <p><b>Adderss:</b> 10 Tinworth Street, Flat 106c SE11 5AL, London</p>
+    <p><b>Phone number:</b> 07548872270</p>
+    <p><b>Email:</b> constantinos.socratous@kcl.ac.uk</p>
+  </div>
 
-  <section>
-    <p><img src="steve jobs.png" alt="Steve Jobs quote" width="600" height=" 300"></p>
-  </section>
+  <img src="steve jobs.png" alt="Steve Jobs quote" width="400" height=" 200">
+
 
 </body>
 </main>
